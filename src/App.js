@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import About from './About';
 import Blog from './Blog';
 import Home from './Home';
@@ -9,7 +9,6 @@ const App = () => {
         <BrowserRouter>
             <div>
                 <NavBar />
-
                 <Routes>
                     <Route path='/' element={<Home />} />
                     <Route path='/about' element={<About />} />
