@@ -1,10 +1,11 @@
-import React, { useState, useContext, createContext } from 'react';
+import React, { useState, createContext } from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
 // import { BrowserRouter } from "react-router-dom";
 
 import reportWebVitals from './reportWebVitals';
 export const UserContext = createContext();
+
 const Index = () => {
 
   const [user, setUser] = useState('Sunday Omolewu');
